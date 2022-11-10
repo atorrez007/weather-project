@@ -12,6 +12,8 @@ let day2 = "";
 let day3 = "";
 let day4 = "";
 
+console.log("this is the code I uploaded on Weather 2");
+
 $(".search-btn").click(function () {
   var search = $(".city-search").val();
   fetchCurrent(search);
